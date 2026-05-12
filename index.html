@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI動画制作サービス。従来の1/3のコスト、1週間で納品。中国200名体制のプロチームが日本企業をサポートします。">
+    <meta name="keywords" content="AI動画制作,企業動画,プロモーション動画,多言語動画,低コスト,格安">
+    <title>与光同尘 - AI動画制作サービス</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Noto+Serif+JP:wght@400;600;900&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-jp">与光同尘</div>
+                    <div class="logo-en">YOKODOJIN</div>
+                </div>
+                <nav class="nav">
+                    <a href="#service" class="nav-link">サービス</a>
+                    <a href="#case" class="nav-link">制作事例</a>
+                    <a href="#about" class="nav-link">会社概要</a>
+                    <a href="#contact" class="nav-link-cta">お問い合わせ</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-gradient"></div>
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">企業向けAIソリューション</div>
+                <h1 class="hero-title">
+                    <span class="hero-title-main">ビジネス動画を</span>
+                    <span class="hero-title-sub">AIで革新する</span>
+                </h1>
+                <p class="hero-subtitle">
+                    従来の<strong>1/3のコスト</strong>、<strong>2週間</strong>で納品<br>
+                    中国200名体制のプロチームが日本企業のプロモーションを支援
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">無料サンプル制作を申し込む</a>
+                    <a href="#service" class="btn btn-secondary">サービス詳細を見る</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">プロスタッフ</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1/3</div>
+                        <div class="stat-label">従来比コスト</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">14日</div>
+                        <div class="stat-label">標準納期</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-video">
+                <video 
+                    class="hero-video-player" 
+                    controls 
+                    poster="videos/hero-thumbnail.jpg"
+                    preload="metadata">
+                    <source src="videos/hero-demo.mp4" type="video/mp4">
+                    お使いのブラウザは動画タグをサポートしていません。
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="problems" id="problems">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">こんなお悩みありませんか？</h2>
+                <p class="section-subtitle">企業の動画制作でよくある課題を解決します</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">💰</div>
+                    <h3 class="problem-title">制作費が高すぎる</h3>
+                    <p class="problem-text">プロモーション動画を作りたいが、従来の制作会社では数百万円もかかる</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🌏</div>
+                    <h3 class="problem-title">多言語対応が必要</h3>
+                    <p class="problem-text">海外展開のため英語・中国語など複数言語の動画が必要だが、別々に発注すると予算オーバー</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">⏰</div>
+                    <h3 class="problem-title">納期が間に合わない</h3>
+                    <p class="problem-text">急なイベントやキャンペーンに間に合わせたいが、従来の制作では1〜2ヶ月もかかる</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="service" id="service">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">サービス・料金</h2>
+                <p class="section-subtitle">2つのサービスタイプからお選びいただけます</p>
+            </div>
+
+            <!-- 短视频素材 -->
+            <div class="service-category">
+                <h3 class="category-title">ショート動画素材</h3>
+                <p class="category-description">SNS広告・情報流配信用の短尺素材。編集やテストに最適。</p>
+                
+                <div class="service-grid-short">
+                    <div class="service-card">
+                        <div class="service-header">
+                            <h3 class="service-title">5秒素材</h3>
+                            <div class="service-price">
+                                <span class="price-amount">1,150</span>
+                                <span class="price-unit">円</span>
+                            </div>
+                            <div class="service-duration">（5秒 × 230円/秒）</div>
+                        </div>
+                        <ul class="service-features">
+                            <li>✓ SNS広告に最適</li>
+                            <li>✓ A/Bテスト用素材</li>
+                            <li>✓ 編集・加工自由</li>
+                            <li>✓ 納期：3〜5営業日</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">お問い合わせ</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-header">
+                            <h3 class="service-title">15秒素材</h3>
+                            <div class="service-price">
+                                <span class="price-amount">3,450</span>
+                                <span class="price-unit">円</span>
+                            </div>
+                            <div class="service-duration">（15秒 × 230円/秒）</div>
+                        </div>
+                        <ul class="service-features">
+                            <li>✓ Instagram・TikTok向け</li>
+                            <li>✓ ストーリー投稿用</li>
+                            <li>✓ 編集・加工自由</li>
+                            <li>✓ 納期：3〜5営業日</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline">お問い合わせ</a>
+                    </div>
+                </div>
+
+                <div class="pricing-note">
+                    <p><strong>単価：</strong>1秒あたり230円で、5秒・15秒以外のカスタム尺もご対応可能です。</p>
+                </div>
+            </div>
+
+            <!-- 成品广告片 -->
+            <div class="service-category">
+                <h3 class="category-title">完成品広告動画</h3>
+                <p class="category-description">企業プロモーション・商品紹介など、そのまま公開できる完成品。</p>
+                
+                <div class="service-card-full">
+                    <div class="service-card service-card-featured">
+                        <div class="service-badge service-badge-primary">フルパッケージ</div>
+                        <div class="service-header">
+                            <h3 class="service-title">完成品広告動画（約2分）</h3>
+                            <div class="service-price">
+                                <span class="price-amount">690</span>
+                                <span class="price-unit">万円〜</span>
+                            </div>
+                            <div class="service-duration">（従来価格：2,300万円）</div>
+                            <div class="service-note">※具体的なご要望をお伺いし、正確なお見積りをご提示いたします</div>
+                        </div>
+                        <ul class="service-features">
+                            <li>✓ 企業紹介・ブランドストーリー</li>
+                            <li>✓ 商品・サービスのプロモーション</li>
+                            <li>✓ 採用動画・IR動画</li>
+                            <li>✓ 展示会・イベント用動画</li>
+                            <li>✓ 企画・構成からナレーション・音楽まで一貫制作</li>
+                            <li>✓ 納期：約2週間（内容により調整可能）</li>
+                            <li>✓ 修正：5回まで無料</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">詳しく相談する</a>
+                    </div>
+                </div>
+
+                <div class="pricing-note">
+                    <p><strong>※ カスタマイズ対応：</strong>動画の長さ、言語数、3D表現の有無など、ご要望に応じて柔軟にお見積りいたします。<br>まずはお気軽にご相談ください。</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section class="cases" id="case">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">制作事例</h2>
+            </div>
+            <div class="cases-grid-simple">
+                <!-- 案例1：请替换video标签的src为您的视频文件路径 -->
+                <div class="case-video-simple">
+                    <video 
+                        class="case-video-player" 
+                        controls 
+                        poster="videos/video1-thumbnail.jpg"
+                        preload="metadata">
+                        <source src="videos/case-video-1.mp4" type="video/mp4">
+                        お使いのブラウザは動画タグをサポートしていません。
+                    </video>
+                </div>
+
+                <!-- 案例2：请替换video标签的src为您的视频文件路径 -->
+                <div class="case-video-simple">
+                    <video 
+                        class="case-video-player" 
+                        controls 
+                        poster="videos/video2-thumbnail.jpg"
+                        preload="metadata">
+                        <source src="videos/case-video-2.mp4" type="video/mp4">
+                        お使いのブラウザは動画タグをサポートしていません。
+                    </video>
+                </div>
+
+                <!-- 案例3：请替换video标签的src为您的视频文件路径 -->
+                <div class="case-video-simple">
+                    <video 
+                        class="case-video-player" 
+                        controls 
+                        poster="videos/video3-thumbnail.jpg"
+                        preload="metadata">
+                        <source src="videos/case-video-3.mp4" type="video/mp4">
+                        お使いのブラウザは動画タグをサポートしていません。
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">選ばれる3つの理由</h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-number">01</div>
+                    <h3 class="why-title">圧倒的なコストパフォーマンス</h3>
+                    <p class="why-text">中国本社の200名体制により、従来の制作会社の1/3のコストを実現。品質を落とさず、価格を抑えます。</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">02</div>
+                    <h3 class="why-title">2週間のスピード納品</h3>
+                    <p class="why-text">AI技術と効率的なワークフローにより、従来1〜2ヶ月かかる制作を2週間で完了。急な展示会やキャンペーンにも対応可能。</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">03</div>
+                    <h3 class="why-title">幅広い業界に対応した専門性</h3>
+                    <p class="why-text">製造業、EC、IT、教育、医療など、さまざまな業界のプロモーション動画制作実績。業界特有の訴求ポイントを的確に表現します。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">会社概要</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-info">
+                    <table class="info-table">
+                        <tr>
+                            <th>会社名</th>
+                            <td>与光同尘インターナショナル<br><span class="en-text">YOKODOJIN International</span></td>
+                        </tr>
+                        <tr>
+                            <th>本社所在地</th>
+                            <td>中国 浙江省 杭州市</td>
+                        </tr>
+                        <tr>
+                            <th>日本窓口</th>
+                            <td>東京都（お問い合わせ後にご案内）</td>
+                        </tr>
+                        <tr>
+                            <th>設立</th>
+                            <td>2020年</td>
+                        </tr>
+                        <tr>
+                            <th>従業員数</th>
+                            <td>200名以上</td>
+                        </tr>
+                        <tr>
+                            <th>事業内容</th>
+                            <td>AI技術を活用した映像制作<br>企業プロモーション動画制作<br>多言語動画コンテンツ制作</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="about-message">
+                    <h3 class="message-title">代表メッセージ</h3>
+                    <p class="message-text">
+                        日本企業は世界に誇る技術力と品質を持ちながら、その魅力を十分に伝えきれていないケースが多く見られます。特に中小企業では、限られた予算と時間の中で効果的なプロモーションを行うことが課題となっています。
+                    </p>
+                    <p class="message-text">
+                        私たちは、AI技術と中国の制作リソースを活用することで、高品質な動画を従来の1/3のコストで提供します。あらゆる業界の企業様が、世界中に自社の価値を発信できるよう、全力でサポートいたします。
+                    </p>
+                    <div class="message-signature">
+                        <div class="signature-name">与光同尘インターナショナル</div>
+                        <div class="signature-title">代表</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">お問い合わせ</h2>
+                <p class="section-subtitle">まずは無料サンプル制作からお試しください</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-info-title">初回限定・無料サンプル制作</h3>
+                    <p class="contact-info-text">
+                        まずは品質をご確認いただくため、初めてのお客様には30秒の製品デモ動画を無料で制作いたします。お気軽にお問い合わせください。
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-content">
+                                <div class="method-label">メール</div>
+                                <div class="method-value">li_zhichao2022@163.com</div>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-content">
+                                <div class="method-label">LINE公式アカウント</div>
+                                <div class="method-value line-qr-wrapper">
+                                    <div class="line-qr-card">
+                                        <img src="videos/line.jpg" alt="LINE QR code" class="qr-image" id="lineQrImage">
+                                        <div class="line-info">
+                                            <div class="line-id-label">LINE ID</div>
+                                            <div class="line-id" id="lineId">lzc1009840152</div>
+                                            <button class="copy-btn" id="copyLineIdBtn" aria-label="コピー LINE ID">コピー</button>
+                                        </div>
+                                    </div>
+                                    <div class="line-hint">QRをタップすると拡大表示します</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">⏰</div>
+                            <div class="method-content">
+                                <div class="method-label">対応時間</div>
+                                <div class="method-value">平日 9:00-18:00（日本時間）</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="company">会社名 <span class="required">*</span></label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">ご担当者名 <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">メールアドレス <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">電話番号</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">ご興味のあるサービス</label>
+                            <select id="interest" name="interest">
+                                <option value="">選択してください</option>
+                                <option value="short-5sec">ショート動画素材（5秒）</option>
+                                <option value="short-15sec">ショート動画素材（15秒）</option>
+                                <option value="full-ad">完成品広告動画（2分前後）</option>
+                                <option value="custom">カスタムプラン</option>
+                                <option value="other">その他・相談</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">ご相談内容</label>
+                            <textarea id="message" name="message" rows="5" placeholder="具体的なご要望や、制作したい動画の内容をお聞かせください"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="privacy" required>
+                                <span><a href="#privacy" class="link">プライバシーポリシー</a>に同意する</span>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">送信する</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="logo-jp">与光同尘</div>
+                    <div class="logo-en">YOKODOJIN</div>
+                    <p class="footer-tagline">企業の未来を、映像で支える</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title">サービス</h4>
+                        <ul class="footer-list">
+                            <li><a href="#service">ショート動画素材</a></li>
+                            <li><a href="#service">完成品広告動画</a></li>
+                            <li><a href="#case">制作事例</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">企業情報</h4>
+                        <ul class="footer-list">
+                            <li><a href="#about">会社概要</a></li>
+                            <li><a href="#case">制作事例</a></li>
+                            <li><a href="#contact">お問い合わせ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-title">法的情報</h4>
+                        <ul class="footer-list">
+                            <li><a href="#privacy">プライバシーポリシー</a></li>
+                            <li><a href="#terms">利用規約</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 与光同尘インターナショナル. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
